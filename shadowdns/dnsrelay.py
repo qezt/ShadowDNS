@@ -27,8 +27,9 @@ import struct
 import errno
 import logging
 from shadowsocks import eventloop, asyncdns, lru_cache, encrypt
-from shadowsocks import utils as shadowsocks_utils
 from shadowsocks.common import parse_header
+
+import utils as shadowsocks_utils
 
 
 BUF_SIZE = 16384
